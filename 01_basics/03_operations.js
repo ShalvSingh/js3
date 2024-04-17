@@ -71,3 +71,5 @@ console.log(undefined === 0) // directly checks data type 1st
 
 
 
+
+
