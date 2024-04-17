@@ -33,4 +33,36 @@ const myfunction = function(){
 console.log(typeof bigNumber)
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive)=> me jab ref lete hai to copy milta hi, ***   Heap(Non Primitive)=> heap se wapis se jab ref lete h to copy nhi milta hai , original value ka reference milta hai
+
+let myYoutubename = "hiteshchaudharydotcom"
+let anothername = myYoutubename
+
+
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+// Another example --> 
+let userOne = {
+    name: "Aman singh",
+    email: "aman123gmail.com"
+}
+
+let userTwo = userOne
+
+userTwo.email = " singh@google.com"
+userTwo.name = " AMAN SINGH"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
+console.log(userOne.name)
+console.log(userTwo.name)
+
+
 
